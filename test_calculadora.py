@@ -20,7 +20,3 @@ def test_dividir():
 def test_dividir_por_zero():
     with pytest.raises(ValueError):
         dividir(5, 0)
-requirements.txt
-
-text
-pytest==7.4.0
